@@ -1,4 +1,4 @@
-package com.flatoys.controller;
+package com.toystore.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
