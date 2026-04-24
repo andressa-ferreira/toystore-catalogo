@@ -1,7 +1,7 @@
-package com.flatoys.controller;
+package com.toystore.controller;
 
-import com.flatoys.model.Toy;
-import com.flatoys.service.ToyService;
+import com.toystore.model.Toy;
+import com.toystore.service.ToyService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
