@@ -1,7 +1,7 @@
-package com.flatoys.config;
+package com.toystore.config;
 
-import com.flatoys.model.User;
-import com.flatoys.repository.UserRepository;
+import com.toystore.model.User;
+import com.ftoystore.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -33,8 +33,8 @@ public class DataInitializer implements CommandLineRunner {
             userRepository.save(user);
             
             System.out.println("✓ Usuários de teste criados:");
-            System.out.println("  Admin - Email: admin@flatoys.com | Senha: admin123");
-            System.out.println("  User  - Email: usuario@flatoys.com | Senha: user123");
+            System.out.println("  Admin - Email: admin@toystore.com | Senha: admin123");
+            System.out.println("  User  - Email: usuario@toystore.com | Senha: user123");
         }
     }
 }
