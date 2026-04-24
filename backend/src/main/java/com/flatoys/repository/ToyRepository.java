@@ -1,6 +1,6 @@
-package com.flatoys.repository;
+package com.toystore.repository;
 
-import com.flatoys.model.Toy;
+import com.toystore.model.Toy;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
