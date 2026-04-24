@@ -1,0 +1,168 @@
+.home {
+  background-image: url('../assets/backgreound.png');
+  background-size: cover;      /* Faz a imagem cobrir todo o espaço */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Opcional: faz a imagem ficar parada enquanto rola o site */
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--primary-red) 0%, var(--primary-black) 100%);
+  color: var(--primary-white);
+  padding: 80px 40px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  opacity: 0.95;
+}
+
+.featured-section {
+  margin-bottom: 60px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid var(--primary-red);
+}
+
+.section-icon {
+  font-size: 32px;
+  color: var(--primary-red);
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-black);
+  margin: 0;
+}
+
+.toys-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.toy-card {
+  background: var(--primary-white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.toy-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px var(--shadow);
+}
+
+.toy-image {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  background-color: var(--light-gray);
+}
+
+.toy-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.toy-info {
+  padding: 20px;
+}
+
+.toy-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-black);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.toy-brand {
+  font-size: 14px;
+  color: var(--dark-gray);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.toy-category {
+  font-size: 13px;
+  color: var(--primary-red);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.toy-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid var(--medium-gray);
+}
+
+.toy-price {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--primary-red);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--dark-gray);
+}
+
+.empty-state p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .toys-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+  }
+}

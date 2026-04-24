@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════╗
+║                    FLATOYS - COMO USAR                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+📋 PASSO A PASSO SIMPLES:
+
+1️⃣  Abra o XAMPP Control Panel
+    → Clique em "Start" no MySQL
+
+2️⃣  Dê um duplo clique em: INICIAR-BACKEND.cmd
+    → Aguarde até ver "Started FlatoysApplication"
+    → NÃO FECHE esta janela!
+
+3️⃣  Dê um duplo clique em: INICIAR-FRONTEND.cmd
+    → Aguarde abrir o navegador
+    → NÃO FECHE esta janela!
+
+4️⃣  Acesse no navegador: http://localhost:3000
+
+═══════════════════════════════════════════════════════════════
+
+🔑 CREDENCIAIS DE TESTE:
+
+Administrador:
+  Email: admin@flatoys.com
+  Senha: admin123
+
+Usuário Comum:
+  Email: usuario@flatoys.com
+  Senha: user123
+
+═══════════════════════════════════════════════════════════════
+
+⚠️  IMPORTANTE:
+- Mantenha as 2 janelas abertas enquanto usa o sistema
+- Para parar: Feche as janelas ou pressione Ctrl+C
+
+═══════════════════════════════════════════════════════════════
+
+❓ PROBLEMAS?
+
+Erro "Porta 8080 em uso":
+  → Feche outras aplicações Java
+  → Reinicie o computador
+
+Erro "Cannot connect to database":
+  → Verifique se o MySQL do XAMPP está rodando
+
+Primeira vez demora muito:
+  → Normal! Está baixando dependências (2-5 minutos)
+
+═══════════════════════════════════════════════════════════════

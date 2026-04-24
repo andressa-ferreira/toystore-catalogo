@@ -1,0 +1,78 @@
+========================================
+  FLATOYS - COMO EXECUTAR
+========================================
+
+OPCAO 1: USANDO OS SCRIPTS (MAIS FACIL)
+----------------------------------------
+
+1. Abra o XAMPP Control Panel
+   - Clique em "Start" no MySQL
+
+2. De duplo clique em: INICIAR-BACKEND.cmd
+   - Aguarde aparecer "Started FlatoysApplication"
+   - NAO FECHE a janela!
+
+3. De duplo clique em: INICIAR-FRONTEND.cmd
+   - Aguarde abrir automaticamente
+   - NAO FECHE a janela!
+
+4. Acesse: http://localhost:3000
+
+
+OPCAO 2: USANDO COMANDOS MANUAIS
+---------------------------------
+
+1. Abra o XAMPP e inicie o MySQL
+
+2. Abra um Prompt de Comando (cmd) e execute:
+
+   cd "C:\Users\lucas\Desktop\Projetos Jadir\Flatoys-final1\backend"
+   .\mvnw.cmd spring-boot:run
+
+3. Abra OUTRO Prompt de Comando e execute:
+
+   cd "C:\Users\lucas\Desktop\Projetos Jadir\Flatoys-final1\frontend"
+   npm install
+   npm run dev
+
+4. Acesse: http://localhost:3000
+
+
+CREDENCIAIS DE TESTE
+---------------------
+
+Administrador:
+  Email: admin@flatoys.com
+  Senha: admin123
+
+Usuario Comum:
+  Email: usuario@flatoys.com
+  Senha: user123
+
+
+PROBLEMAS COMUNS
+----------------
+
+"Porta 8080 em uso":
+  - Feche outras aplicacoes Java
+  - Ou execute: taskkill /F /IM java.exe
+
+"Cannot connect to database":
+  - Verifique se o MySQL do XAMPP esta rodando
+  - Abra: http://localhost/phpmyadmin
+
+"mvnw.cmd nao encontrado":
+  - Certifique-se de estar na pasta backend
+  - Use o caminho completo
+
+Primeira execucao demora:
+  - Normal! Esta baixando dependencias (2-5 min)
+
+
+PARA PARAR
+----------
+  - Feche as janelas do backend e frontend
+  - Ou pressione Ctrl+C em cada janela
+
+
+========================================
