@@ -1,3 +1,4 @@
+[![Assista ao vídeo]]((https://youtu.be/8DnR0TXI8yc))
 🧸 ToyStore - Sistema web de gerenciamento de produtos e categorias para uma loja de brinquedos, com controle de acesso entre administrador e usuários comuns.
 
 Sobre o Projeto:
@@ -20,6 +21,8 @@ React
 - Banco de Dados
 MySQL
 XAMPP
+
+
 
 👤 Tipos de Usuário
  - Admin
@@ -79,3 +82,4 @@ Deploy em nuvem
 Sistema de estoque
 
 📄 Este projeto é de uso acadêmico e pode ser utilizado como base para estudos e melhorias.
+
