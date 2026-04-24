@@ -1,18 +1,12 @@
-# 📸 Sistema de Upload de Imagens - FLATOYS
-
-## Como Funciona
+Sistema de Upload de Imagens 
 
 O sistema agora permite fazer upload de imagens localmente através do formulário de brinquedos.
-
-## 🎯 Como Usar
-
-### 1. Acessar a Administração
-- Faça login como **admin** (admin@flatoys.com / admin123)
+1. Acessar a Administração
+- Faça login como **admin** (admin@toystore.com / admin123)
 - Clique em **Administração** no menu lateral
 - Clique em **Novo Brinquedo** ou **Editar** um brinquedo existente
 
 ### 2. Fazer Upload da Imagem
-
 No formulário de brinquedo:
 
 1. **Escolher Imagem**
@@ -51,13 +45,7 @@ http://localhost:8080/api/upload/images/[nome-do-arquivo]
 
 O frontend acessa automaticamente essa URL para exibir as imagens.
 
-## ✅ Validações
-
-- **Tipo de arquivo**: Apenas imagens são aceitas
-- **Tamanho**: Máximo de 5MB por imagem
-- **Nome único**: Cada imagem recebe um UUID único
-
-## 🎨 Fluxo Completo
+##  Fluxo
 
 1. Usuário seleciona imagem → Preview aparece
 2. Usuário clica "Fazer Upload" → Imagem é enviada ao backend
@@ -76,13 +64,6 @@ Propriedade:
 ```properties
 app.upload.dir=uploads/images
 ```
-
-## 📌 Observações
-
-- As imagens são salvas **localmente** no servidor
-- Ao deletar um brinquedo, a imagem **não é deletada automaticamente**
-- Para produção, considere usar um serviço de armazenamento em nuvem
-- O diretório `uploads/` está no `.gitignore` para não versionar as imagens
 
 ## 🚀 Exemplo de Uso
 
