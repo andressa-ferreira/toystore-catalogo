@@ -1,7 +1,7 @@
-package com.flatoys.service;
+package com.toystore.service;
 
-import com.flatoys.model.Category;
-import com.flatoys.repository.CategoryRepository;
+import com.toystore.model.Category;
+import com.toystore.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
