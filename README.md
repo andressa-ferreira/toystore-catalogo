@@ -1,4 +1,4 @@
-[![Assista ao vídeo]]((https://youtu.be/8DnR0TXI8yc))
+Video de demonstração: (https://youtu.be/8DnR0TXI8yc)
 🧸 ToyStore - Sistema web de gerenciamento de produtos e categorias para uma loja de brinquedos, com controle de acesso entre administrador e usuários comuns.
 
 Sobre o Projeto:
