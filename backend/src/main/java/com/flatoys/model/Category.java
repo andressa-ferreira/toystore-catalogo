@@ -1,4 +1,4 @@
-package com.flatoys.model;
+package com.toystore.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
