@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FlatoysApplication {
+public class ToystoreApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FlatoysApplication.class, args);
+        SpringApplication.run(ToystoreApplication.class, args);
     }
 }
