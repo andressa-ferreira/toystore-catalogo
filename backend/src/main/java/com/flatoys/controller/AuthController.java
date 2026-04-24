@@ -1,9 +1,9 @@
-package com.flatoys.controller;
+package com.toystore.controller;
 
-import com.flatoys.dto.LoginRequest;
-import com.flatoys.dto.LoginResponse;
-import com.flatoys.dto.RegisterRequest;
-import com.flatoys.service.UserService;
+import com.toystore.dto.LoginRequest;
+import com.toystore.dto.LoginResponse;
+import com.toystore.dto.RegisterRequest;
+import com.toystore.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
