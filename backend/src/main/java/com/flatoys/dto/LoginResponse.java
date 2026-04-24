@@ -1,6 +1,6 @@
-package com.flatoys.dto;
+package com.toystore.dto;
 
-import com.flatoys.model.User;
+import com.toystore.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
