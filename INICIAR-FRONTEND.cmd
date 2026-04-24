@@ -1,7 +1,7 @@
 @echo off
 cls
 echo ========================================
-echo      FLATOYS - Iniciando Frontend
+echo     Toystore - Iniciando Frontend
 echo ========================================
 echo.
 
