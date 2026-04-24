@@ -1,7 +1,7 @@
 @echo off
-echo ========================================
-echo  FLATOYS - Iniciando Backend
-echo ========================================
+echo 
+echo  toystore -  backend
+echo 
 echo.
 
 REM Detectar JAVA_HOME automaticamente
