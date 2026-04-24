@@ -1,4 +1,4 @@
-package com.flatoys.dto;
+package com.toystore.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
