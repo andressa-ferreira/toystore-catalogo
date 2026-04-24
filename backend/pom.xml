@@ -12,11 +12,11 @@
         <relativePath/>
     </parent>
     
-    <groupId>com.flatoys</groupId>
-    <artifactId>flatoys-backend</artifactId>
+    <groupId>com.toystore</groupId>
+    <artifactId>toystore-backend</artifactId>
     <version>1.0.0</version>
-    <name>FLATOYS Backend</name>
-    <description>Backend for FLATOYS toy catalog</description>
+    <name>TOYSTORE Backend</name>
+    <description>Backend for TOYSTORE catalog</description>
     
     <properties>
         <java.version>17</java.version>
