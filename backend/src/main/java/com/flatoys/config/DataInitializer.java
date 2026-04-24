@@ -1,7 +1,7 @@
 package com.toystore.config;
 
 import com.toystore.model.User;
-import com.ftoystore.repository.UserRepository;
+import com.toystore.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
