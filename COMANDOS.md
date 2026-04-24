@@ -1,6 +1,6 @@
-# 🚀 COMANDOS PARA RODAR O FLATOYS
 
-## ✅ COMANDOS CORRETOS (Use estes!)
+
+##  COMANDOS CORRETOS (Use estes!)
 
 ### Backend (escolha UMA das opções):
 
@@ -25,18 +25,16 @@ npm run dev
 
 ---
 
-## 📝 Passo a Passo Completo
+##  Passo a Passo Completo
 
 ### 1. Abrir Terminal/PowerShell
 
 ### 2. Navegar até a pasta do projeto
 ```bash
-cd "C:\Users\lucas\Desktop\Projetos Jadir\Flatoys-final1"
+cd "C:\Users\usuario\Desktop\Projetos Jadir\Toystore-catalogo"
 ```
 
 ### 3. Iniciar o XAMPP
-- Abra o XAMPP Control Panel
-- Clique em "Start" no MySQL
 
 ### 4. Rodar o Backend
 ```bash
@@ -44,14 +42,14 @@ cd backend
 .\mvnw.cmd spring-boot:run
 ```
 
-**AGUARDE** até ver a mensagem:
+**AGUARDE**a mensagem:
 ```
 Started FlatoysApplication in X.XXX seconds
 ```
 
 ### 5. Abrir OUTRO terminal e rodar o Frontend
 ```bash
-cd "C:\Users\lucas\Desktop\Projetos Jadir\Flatoys-final1\frontend"
+cd "C:\Users\usuario\Desktop\Projetos Jadir\Toystore-catalogo\frontend"
 npm install
 npm run dev
 ```
@@ -61,38 +59,11 @@ npm run dev
 http://localhost:3000
 ```
 
----
-
-## ⚠️ Problemas Comuns
-
-### "mvnw.cmd não é reconhecido"
-**Solução**: Use o caminho completo
-```bash
-cd "C:\Users\lucas\Desktop\Projetos Jadir\Flatoys-final1\backend"
-.\mvnw.cmd spring-boot:run
-```
-
-### "Porta 8080 já está em uso"
-**Solução**: Mate o processo
-```bash
-netstat -ano | findstr :8080
-taskkill /PID [NUMERO] /F
-```
-
-### "Cannot connect to database"
-**Solução**: Verifique se o MySQL do XAMPP está rodando
-
-### Primeira execução demora muito
-**Normal!** O Maven Wrapper vai baixar o Maven na primeira vez (pode levar 2-5 minutos)
-
----
-
-## 🎯 Credenciais de Login
-
+## Credenciais de Login
 **Admin:**
-- Email: admin@flatoys.com
+- Email: admin@toystore.com
 - Senha: admin123
 
 **Usuário:**
-- Email: usuario@flatoys.com
+- Email: usuario@toystore.com
 - Senha: user123
