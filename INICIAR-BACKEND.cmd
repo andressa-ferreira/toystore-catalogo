@@ -1,7 +1,7 @@
 @echo off
 cls
 echo ========================================
-echo      FLATOYS - Iniciando Backend
+echo      Toystore - Iniciando Backend
 echo ========================================
 echo.
 echo Configurando ambiente...
@@ -26,7 +26,7 @@ echo.
 echo Iniciando Spring Boot...
 echo (Primeira execucao pode demorar 2-5 minutos)
 echo.
-echo Aguarde a mensagem: "Started FlatoysApplication"
+echo Aguarde a mensagem: "Started ToystoreApplication"
 echo.
 echo ========================================
 echo.
